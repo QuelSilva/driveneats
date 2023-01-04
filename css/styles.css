@@ -1,8 +1,37 @@
 body {
     font-family: 'Righteous', cursive;
-    background-color: aquamarine;
 }
 
-h1 {
-    text-align: center;
+/*recebe margin auto pra centralizar o conteudo da página*/
+.conteiner{
+    margin: auto;
+    width: 414px;
+    margin-top: 15px; /*apenas para desgrudar do topo*/
 }
+
+/*largura e altura do header seguem as medidas do figma*/
+header{
+    width: 414px;
+    height: 92px;
+    background-color: #CF2B2B;
+}
+
+.titulo{
+    font-family: Righteous;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 55px;
+    margin-left: 21px;
+    color: #ffffff;
+
+}
+
+h2{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-left: 21px;
+    color: #ffffff;
+}
+
