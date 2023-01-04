@@ -6,7 +6,8 @@ body {
 .conteiner{
     margin: auto;
     width: 414px;
-    margin-top: 15px; /*apenas para desgrudar do topo*/
+    background-color: #E5E5E5;
+    margin-top: 15px; /*apenas para desgrudar do topo do navegador*/
 }
 
 /*largura e altura do header seguem as medidas do figma*/
@@ -26,6 +27,15 @@ header{
 
 }
 
+h1{
+    font-family: Righteous;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 31px;
+    margin-left: 21px;
+}
+
 h2{
     font-family: Roboto;
     font-size: 18px;
@@ -33,5 +43,48 @@ h2{
     line-height: 21px;
     margin-left: 21px;
     color: #ffffff;
+}
+
+img{
+    width: 144px;
+    border-radius: 4px;
+    margin: 18px 14px 6px 14px;
+}
+
+h3{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: #333333;
+    margin-left: 14px;
+}
+
+p{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+    color: #A6A6A6;
+    margin-left: 14px;
+}
+
+.secaoComida{
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+    margin-right: 21px; /*descolar do canto direito que fica cortado pelo overflow*/
+}
+
+/*barra de rolagem invisivel*/
+*::-webkit-scrollbar {
+    width: 12px;
+  }
+
+.comidas{
+    width: 172px;
+    height: 216px;
+    background-color: #ffffff;
+    margin: 17px 0px 27px 21px;
 }
 
