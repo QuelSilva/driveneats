@@ -47,6 +47,7 @@ h2{
 
 img{
     width: 144px;
+    height: 87px;
     border-radius: 4px;
     margin: 18px 14px 6px 14px;
 }
@@ -66,10 +67,10 @@ p{
     font-weight: 300;
     line-height: 18px;
     color: #A6A6A6;
-    margin-left: 14px;
+    margin: 6px 0px 8px 14px;
 }
 
-.secaoComida{
+.secaoComida, .secaoBebida{
     display: flex;
     overflow: hidden;
     overflow-x: scroll;
@@ -81,10 +82,11 @@ p{
     width: 12px;
   }
 
-.comidas{
+.comidas, .bebidas{
     width: 172px;
     height: 216px;
     background-color: #ffffff;
+    border-radius: 9px;
     margin: 17px 0px 27px 21px;
 }
 
