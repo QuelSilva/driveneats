@@ -6,15 +6,24 @@ body {
 .conteiner{
     margin: auto;
     width: 414px;
+    margin-top: 92px;
     background-color: #E5E5E5;
-    margin-top: 15px; /*apenas para desgrudar do topo do navegador*/
 }
-
 /*largura e altura do header seguem as medidas do figma*/
 header{
     width: 414px;
     height: 92px;
+    position: fixed;
+    top: 0;
     background-color: #CF2B2B;
+}
+
+.barraInferior{
+    width: 414px;
+    height: 92px;
+    position: fixed;
+    bottom: 0;
+    background-color: #ffffff;
 }
 
 .titulo{
@@ -24,7 +33,6 @@ header{
     line-height: 55px;
     margin-left: 21px;
     color: #ffffff;
-
 }
 
 h1{
@@ -32,7 +40,6 @@ h1{
     font-size: 26px;
     font-weight: 400;
     line-height: 32px;
-    margin-top: 31px;
     margin-left: 21px;
 }
 
@@ -70,7 +77,7 @@ p{
     margin: 6px 0px 8px 14px;
 }
 
-.secaoComida, .secaoBebida{
+.secaoComida, .secaoBebida, .secaoSobremesa{
     display: flex;
     overflow: hidden;
     overflow-x: scroll;
@@ -82,7 +89,11 @@ p{
     width: 12px;
   }
 
-.comidas, .bebidas{
+.secaoSobremesa{
+    margin-bottom: 75px;
+}
+
+.comidas, .bebidas, .sobremesas{
     width: 172px;
     height: 216px;
     background-color: #ffffff;
@@ -90,3 +101,17 @@ p{
     margin: 17px 0px 27px 21px;
 }
 
+button{
+    width: 364px;
+    height: 61px;
+    border-radius: 50px;
+    border: #cbcbcb;
+    margin-left: 25px;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #cbcbcb;
+    text-align: center;
+    color: #ffffff;
+    font-family: Roboto;
+}
