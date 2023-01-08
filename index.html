@@ -17,88 +17,128 @@
         </header>
             <h1 class="nomeSecao">Primeiro, seu prato</h1>
             <div class="secaoComida">
-                <div class="comidas">
+                <div class="comidas" onclick="selecionarPrato(this)">
                     <img src="./imagens/frango_yin_yang.png" alt="Frango">
                     <h3>Frango Yin Yang</h3>
                     <p>Um pouco de batata, um pouco de salada</p>
                     <h3>R$ 14,90</h4>
+                    <div class="check">
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
                 </div>
-                <div class="comidas">
+                <div class="comidas" onclick="selecionarPrato(this)">
                     <img src="./imagens/bife.webp" alt="bife">
                     <h3>Bife acebolado</h3>
                     <p>Bife acebolado</p>
                     <h3>R$ 27,90</h4>
+                    <div class="check">
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
                 </div>
-                <div class="comidas">
+                <div class="comidas" onclick="selecionarPrato(this)">
                     <img src="./imagens/sushi.jpg" alt="sushi">
                     <h3>Sushi</h3>
                     <p>Porção de sushi</p>
                     <h3>R$ 34,90</h4>
+                    <div class="check">
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
                 </div>
-                <div class="comidas">
+                <div class="comidas" onclick="selecionarPrato(this)">
                     <img src="./imagens/file-de-peixe-empanado.jpg" alt="File">
                     <h3>File de Peixe</h3>
                     <p>Peixe empanado</p>
                     <h3>R$ 22,90</h4>
+                    <div class="check">
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
                 </div>
             </div>
             <h1>Agora, sua bebida</h1>
             <div class="secaoBebida">
-                <div class="bebidas">
+                <div class="bebidas" onclick="selecionarPrato(this)">
                     <img src="./imagens/pepsi.webp" alt="pepsi">
                     <h3>Pepsi</h3>
                     <p>Pepsi geladinha</p>
                     <h3>R$ 3,00</h4>
+                    <div class="check">
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
                 </div>
-                <div class="bebidas">
+                <div class="bebidas" onclick="selecionarPrato(this)">
                     <img src="./imagens/sucos.jpg" alt="sucos">
                     <h3>Sucos Variados</h3>
                     <p>Laranja, Limão, Uva </p>
                     <h3>R$ 2,00 </h4>
+                    <div class="check">
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
                 </div>
-                <div class="bebidas">
+                <div class="bebidas" onclick="selecionarPrato(this)">
                     <img src="./imagens/coca-cola.png" alt="coquinha">
                     <h3>Coca-cola</h3>
                     <p>Coquinha geladinha</p>
                     <h3>R$ 3,00</h4>
+                    <div class="check">
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
                 </div>
-                <div class="bebidas">
+                <div class="bebidas" onclick="selecionarPrato(this)">
                     <img src="./imagens/fanta.webp" alt="fanta">
                     <h3>Fanta laranja</h3>
                     <p>Fanta geladinha</p>
                     <h3>R$ 3,00</h4>
+                    <div class="check">
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
                 </div>
             </div>
             <h1>Por fim, sua sobremesa</h1>
             <div class="secaoSobremesa">
-                <div class="sobremesas">
+                <div class="sobremesas" onclick="selecionarPrato(this)">
                     <img src="./imagens/pudim.png" alt="pudim">
                     <h3>Pudim</h3>
                     <p>Apenas pudim</p>
                     <h3>R$ 7,90</h4>
+                    <div class="check">
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
                 </div>
-                <div class="sobremesas">
+                <div class="sobremesas" onclick="selecionarPrato(this)">
                     <img src="./imagens/sorvete-de-chocolaate.jpg" alt="sorvete">
                     <h3>Sorvete de cholate</h3>
                     <p>Sorvetinho para refrescar</p>
                     <h3>R$ 5,90</h4>
+                    <div class="check">
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
                 </div>
-                <div class="sobremesas">
+                <div class="sobremesas" onclick="selecionarPrato(this)">
                     <img src="./imagens/brownie-com-sorvete.jpg" alt="brownie">
                     <h3>Brownie</h3>
                     <p>Brownie com sorvete</p>
                     <h3>R$ 13,90</h4>
+                    <div class="check">
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
                 </div>
-                <div class="sobremesas">
+                <div class="sobremesas" onclick="selecionarPrato(this)">
                     <img src="./imagens/mousse-de-maracuja.webp" alt="mousse">
                     <h3>Mousse</h3>
                     <p>Mousse de maracuja docinho</p>
                     <h3>R$ 9,90</h4>
+                    <div class="check">
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
                 </div>
             </div>
             <div class="barraInferior">
-                <button>Selecione os 3 itens </br> para fechar o pedido</button>
+                <button onclick="ativarBotao">Selecione os 3 itens </br> para fechar o pedido</button>
             </div>
     </div>
+
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="./javascript/scripts.js"></script>
 </body>
 </html>

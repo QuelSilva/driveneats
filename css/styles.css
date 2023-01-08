@@ -15,6 +15,7 @@ header{
     height: 92px;
     position: fixed;
     top: 0;
+    z-index: 1;
     background-color: #CF2B2B;
 }
 
@@ -41,6 +42,10 @@ h1{
     font-weight: 400;
     line-height: 32px;
     margin-left: 21px;
+}
+
+.nomeSecao{
+    padding-top: 32px;
 }
 
 h2{
@@ -99,6 +104,18 @@ p{
     background-color: #ffffff;
     border-radius: 9px;
     margin: 17px 0px 27px 21px;
+    position: relative;
+}
+
+.check{
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    height: 20px;
+    width: 20px;
+    color: #32B72F;
+    opacity: 0;
+
 }
 
 button{
