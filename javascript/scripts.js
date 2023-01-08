@@ -66,8 +66,10 @@ function ativarBotao() {
     if (tituloComida !== undefined && tituloBebida !== undefined && tituloSobremesa !== undefined) {
       const botao = document.querySelector("button");
       botao.innerText = "Fechar pedido";
-      botao.style.backgroundColor = "#32b72f";
+      botao.removeAttribute('disabled')
+      botao.style.backgroundColor = "#32b72f"; 
     }
+
   }
 
 
@@ -81,11 +83,13 @@ function ativarBotao() {
      - Prato: ${tituloComida}
      - Bebida: ${tituloBebida}
      - Sobremesa: ${tituloSobremesa}
-     Total: R$ ${(Number(precoComida) + Number(precoBebida) + Number(precoSobremesa)).toFixed(2)} `;
+     Total: R$ ${(Number(precoComida) + Number(precoBebida) + Number(precoSobremesa))} `;
 
 
     /*envia o pedido para o whatsapp*/
     const whatsappMesseger = `https://wa.me/5592993448935?text=`;
     const enviaPedido = whatsappMesseger + encodeURIComponent(finalizarPedido);
     document.location.href = enviaPedido;
+    
   }
+
