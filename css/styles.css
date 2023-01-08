@@ -107,15 +107,27 @@ p{
     position: relative;
 }
 
-.check{
-    position: absolute;
-    bottom: 5px;
-    right: 10px;
-    height: 20px;
-    width: 20px;
-    color: #32B72F;
-    opacity: 0;
+.selecionado {
+    border: solid 4px #32b732;
+    border-radius: 10px;
+}
 
+.selecionado .check{
+    opacity: 0;
+}
+
+.selecionado .check{
+    border: none;
+    opacity: 1;
+}
+
+.check{
+    color: #32b732;
+    font-size: 20px;
+    position: absolute;
+    right: 15px;
+    bottom: 5px; 
+    opacity: 0;
 }
 
 button{
