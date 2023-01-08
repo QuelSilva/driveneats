@@ -83,7 +83,7 @@ function ativarBotao() {
      - Prato: ${tituloComida}
      - Bebida: ${tituloBebida}
      - Sobremesa: ${tituloSobremesa}
-     Total: R$ ${(Number(precoComida) + Number(precoBebida) + Number(precoSobremesa))} `;
+     Total: R$ ${(Number(precoComida) + Number(precoBebida) + Number(precoSobremesa)).toFixed(2).toString().replace('.', ',')} `;
 
 
     /*envia o pedido para o whatsapp*/
