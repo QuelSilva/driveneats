@@ -9,7 +9,7 @@ body {
     margin-top: 92px;
     background-color: #E5E5E5;
 }
-/*largura e altura do header seguem as medidas do figma*/
+/*largura e altura do header conforme as medidas do figma*/
 header{
     width: 414px;
     height: 92px;
@@ -27,7 +27,7 @@ header{
     background-color: #ffffff;
 }
 
-.titulo{
+.tituloTopo{
     font-family: Righteous;
     font-size: 44px;
     font-weight: 400;
@@ -95,7 +95,7 @@ p{
   }
 
 .secaoSobremesa{
-    margin-bottom: 75px;
+    margin-bottom: 75px; /*descolar da barra inferior (div que guarda o button)*/
 }
 
 .comidas, .bebidas, .sobremesas{
@@ -129,6 +129,7 @@ p{
     bottom: 5px; 
     opacity: 0;
 }
+
 
 button{
     width: 364px;
